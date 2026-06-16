@@ -176,13 +176,13 @@ main,
 .registration h2 {
   margin: 0;
   font-weight: 800;
-  line-height: 0.96;
+  line-height: 0.98;
   letter-spacing: -0.04em;
 }
 
 .hero-copy h1 {
   font-size: clamp(3rem, 7vw, 5.8rem);
-  max-width: 12ch;
+  max-width: 11ch;
 }
 
 .lede {
@@ -264,6 +264,7 @@ main,
   position: relative;
   overflow: hidden;
   isolation: isolate;
+  align-self: stretch;
 }
 
 .hero-card::before {
@@ -290,7 +291,7 @@ main,
 
 .robot-visual {
   position: relative;
-  height: 380px;
+  height: 400px;
   margin: 16px 0 10px;
 }
 
@@ -444,7 +445,7 @@ main,
 .feature-band h2,
 .registration h2 {
   font-size: clamp(2rem, 4vw, 3.6rem);
-  max-width: 14ch;
+  max-width: 15ch;
 }
 
 .section-note {
@@ -455,13 +456,14 @@ main,
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
 .info-card {
   border-radius: var(--radius-lg);
   padding: 22px;
+  min-height: 100%;
 }
 
 .info-card h3,
@@ -635,7 +637,7 @@ main,
   }
 
   .robot-visual {
-    height: 320px;
+    height: 300px;
   }
 
   .robot-arm-left {

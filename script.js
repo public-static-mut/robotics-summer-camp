@@ -1,10 +1,10 @@
 const year = new Date().getFullYear();
 
-document.title = `Santa Monica Robotics Summer Camp ${year}`;
+document.title = `Samotech Summer Robotics ${year}`;
 
 const footer = document.querySelector(".footer");
 if (footer) {
   const line = document.createElement("p");
-  line.textContent = `${year} season`;
+  line.textContent = `${year} summer planning`;
   footer.appendChild(line);
 }

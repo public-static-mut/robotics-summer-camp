@@ -1,6 +1,6 @@
-# Santa Monica Robotics Summer Camp
+# Samotech Summer Robotics
 
-Static landing page for a robotics summer camp in Santa Monica, California.
+Static landing page for Samotech and Cyberquakes summer robotics planning.
 
 ## Local preview
 
@@ -15,4 +15,4 @@ Open `index.html` directly in a browser, or serve the folder with any static ser
 ## Notes
 
 - The site is intentionally static and Vercel-friendly.
-- Update the registration email in `index.html` before launch.
+- Update the email address in `index.html` if the contact changes.
