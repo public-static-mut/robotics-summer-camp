@@ -43,7 +43,7 @@ a {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .bg-grid {
@@ -66,7 +66,7 @@ p {
 }
 
 .bg-glow-a {
-  width: 380px;
+  width: 380.0px;
   height: 380px;
   background: rgba(94, 234, 212, 0.18);
   left: -90px;
@@ -175,7 +175,7 @@ main,
 .feature-band h2,
 .registration h2 {
   margin: 0;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 0.98;
   letter-spacing: -0.04em;
 }
@@ -428,15 +428,50 @@ main,
 .schedule,
 .feature-band,
 .registration {
-  margin-top: 26px;
+  margin-top: 6px;
 }
+.section h1{
+  font-size: 36px;
+  margin: 6px auto;
+  font-family: Outfit; 
+  font-weight: 600;
+}
+.cards h2, .section h2 {
+  padding: 5px auto;
+  color: #47b3c4;
+  text-align: center;
+  font-size: 1.9em;
+  margin-top: 12px;
+}
+.section h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color:#47b3c4;
+  line-height: 1.1em;
+}
+.section p,
+.section li {
+  font-size: 1.3rem;
+  padding-left: 4px;
+}
+.section a, .cards a {
+  text-decoration: underline; 
+  color: #47b3c4;
+}
+.fit-width {
+  width: 100%;
+  max-width: 500px;
+  margin: 5px auto;
+  display: block; /* Removes unwanted whitespace below the image */
+}
+
 
 .section-split {
   display: flex;
   justify-content: space-between;
   gap: 22px;
   border-radius: var(--radius-xl);
-  padding: 26px;
+  padding: 4px 8px;
   align-items: end;
 }
 
@@ -444,8 +479,8 @@ main,
 .schedule-copy h2,
 .feature-band h2,
 .registration h2 {
-  font-size: clamp(2rem, 4vw, 3.6rem);
-  max-width: 15ch;
+  font-size: clamp(2rem, 4vw, 3rem);
+  max-width: 35ch;
 }
 
 .section-note {
@@ -458,6 +493,7 @@ main,
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
+  margin-top: 30px;
 }
 
 .info-card {
@@ -603,9 +639,6 @@ main,
   font-size: 0.68rem;
 }
 
-.full-width {
-  width: 100%;
-}
 
 .fineprint {
   margin: 14px 0 0;
